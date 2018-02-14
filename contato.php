@@ -61,26 +61,26 @@ include('includes/header.php');
 									<option value="correios">Correios</option>
 									<option value="economus">Economus</option>
 									<option value="embratel">Embratel</option>
-									<option value="em">Emgepron</option>
-									<option value="">Fenix Medical</option>
-									<option value="">Fundação CESP</option>
-									<option value="">FUNSERV</option>
-									<option value="">FUSEX</option>
-									<option value="">Gama Saúde</option>
-									<option value="">HAOC</option>
-									<option value="">Marinha do Brasil</option>
-									<option value="">Mediplan Saúde</option>
-									<option value="">Mediservice</option>
-									<option value="">Grupo NotreDame Intermédica</option>
-									<option value="">OMINT</option>
-									<option value="">PLAMTEL</option>
-									<option value="">Porto Seguro</option>
-									<option value="">SANAMED</option>
-									<option value="">Real Grandeza</option>
-									<option value="">Sompo Saúde</option>
-									<option value="">SulAmérica</option>
-									<option value="">Tempo Seguradora</option>
-									<option value="">Unimed</option>
+									<option value="emgepron">Emgepron</option>
+									<option value="fenix">Fenix Medical</option>
+									<option value="cesp">Fundação CESP</option>
+									<option value="funserv">FUNSERV</option>
+									<option value="fusex">FUSEX</option>
+									<option value="gama">Gama Saúde</option>
+									<option value="haoc">HAOC</option>
+									<option value="marinha">Marinha do Brasil</option>
+									<option value="mediplan">Mediplan Saúde</option>
+									<option value="mediservice">Mediservice</option>
+									<option value="intermedica">Grupo NotreDame Intermédica</option>
+									<option value="omint">OMINT</option>
+									<option value="plamtel">PLAMTEL</option>
+									<option value="portoseguro">Porto Seguro</option>
+									<option value="sanamed">SANAMED</option>
+									<option value="real">Real Grandeza</option>
+									<option value="sompo">Sompo Saúde</option>
+									<option value="sulamerica">SulAmérica</option>
+									<option value="tempo">Tempo Seguradora</option>
+									<option value="unimed">Unimed</option>
 								</select>
 							</div>
 						</div>

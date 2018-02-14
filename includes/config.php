@@ -1,6 +1,6 @@
 <?php 
 	// definindo valores padrões
-	define("URL_BASE", 'http://localhost/IDS%20Sorocaba/');
+	define("URL_BASE", 'http://localhost/IDS/');
 
 	// página atual
 	$pagina	= basename($_SERVER['SCRIPT_NAME']);
