@@ -242,6 +242,19 @@ header{
     width: 100%;
     height: auto;
  }
+ 	.contact {
+	    border: none;
+	 }
+	 .form-control{
+	 	border: none;
+	 	outline: none;
+	 	border-bottom: 3px solid #dad7dc;
+	 	border-radius: 0;
+	 }
+	 .form-control:focus{
+	 	border-color: #ac76b0;
+	 	box-shadow: 0 0 0 0.2rem rgba(206, 212, 218, 0);
+	 }
 .work{
 	color: #96989A;
 	margin-top:  40px;
