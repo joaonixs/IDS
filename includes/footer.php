@@ -44,6 +44,22 @@ function openCity(evt, cityName) {
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
 </script>
+<script>
+	var acc = document.getElementsByClassName("accordion");
+	var i;
+
+	for (i = 0; i < acc.length; i++) {
+	  acc[i].addEventListener("click", function() {
+	    this.classList.toggle("active");
+	    var panel = this.nextElementSibling;
+	    if (panel.style.maxHeight){
+	      panel.style.maxHeight = null;
+	    } else {
+	      panel.style.maxHeight = panel.scrollHeight + "px";
+	    } 
+	  });
+	}
+</script>
 </body>
 <!-- Init code pzw.io  //-->
 <script>var $_PowerZAP = { lang: "pt-br", defaultCountry: '+55', widget_id: '415', company: "4398" }; (function(i,s,o,g,r,a,m){ i[r]={context:{id:'ff2fbb8cde7083e487a77f42d9620401'}};a=o;o=s.createElement(o); o.async=1;o.src=g;m=s.getElementsByTagName(a)[0];m.parentNode.insertBefore(o,m); })(window,document,'script','https://widget-omni.powerzap.com.br/js/widget.js?v=5.0.2.96','pwz');</script>

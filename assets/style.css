@@ -1,6 +1,7 @@
 *{
 	padding: 0;
 	margin: 0;
+	font-family: 'Pontano Sans', sans-serif;
 }
 
 a{
@@ -29,30 +30,8 @@ header{
 	margin-bottom: 10px;
 	z-index: 2;
 }
-	header:after{
-		content: '';
-		height: 10px;
-		width: 50%;
-		background: #08babe;
-		position: absolute;
-		bottom: -10px;
-		float: left;
-		left: 0;
-	}
-	header:before{
-		content: '';
-		height: 10px;
-		width: 50%;
-		background: #ac76b0;
-		position: absolute;
-		bottom: -10px;
-		float: right;
-		right: 0;
-	}
-
 	.header-logo{
 		height: 130px;
-		/*background: red;*/
 		display: flex;
 		justify-content: flex-start;
 		align-items: center;
@@ -60,7 +39,6 @@ header{
 
 	.header-contact{
 		height: 130px;
-		/*background: #bebebe;*/
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -94,7 +72,6 @@ header{
 
 	.header-social{
 		height: 130px;
-		/*background: yellow;*/
 		display: flex;
 		justify-content: flex-end;
 		align-items: center;
@@ -104,14 +81,75 @@ header{
 		}
 /*menu*/
 .menu-header{
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: center;
+	border-top: 1px solid;
+	border-color: #c9cbce;
+	font-size: 18.5px;
+	text-transform:  uppercase;
 }
 	.menu-header a{
 		color: #96989a !important;
 	}
+	.menu-pages{
+		padding-right: 20px;
+		padding-left: 20px;
+		padding-top: 5px;
+		line-height: 3;
+	}
 	.menu-pages a{
-		display: block;
+		/* display: block; */
+	}
+	.one{
+		border-top: 10px solid #fff!important;
+		border-bottom: 10px solid;
+		border-color: #ab59b1;
+	}
+	.two{
+		border-top: 10px solid #fff!important;
+		border-bottom: 10px solid;
+		border-color: #b17ed6;
+	}
+	.three{
+		border-top: 10px solid #fff!important;
+		border-bottom: 10px solid;
+		border-color: #c79be6;
+	}
+	.four{
+		border-top: 10px solid #fff!important;
+		border-bottom: 10px solid;
+		border-color: #dbabfb;
+	}
+	.five{
+		border-top: 10px solid #fff!important;
+		border-bottom: 10px solid;
+		border-color: #f5c7f9;
+	}
+	.six{
+		border-top: 10px solid #fff!important;
+		border-bottom: 10px solid;
+		border-color: #f3dbf5;
+	}
+/* titles */
+.header-page{
+	margin-bottom: 40px;
+	text-align: justify;
+}
+.title-page{
+	margin-top: 40px;
+	margin-bottom: 40px;
+	font-family: 'Ropa Sans', sans-serif;
+	text-transform: uppercase;
+	border-bottom:  1px solid #EBEBEB;
+}
+	.sub-title{
+		font-family: 'Ropa Sans', sans-serif;
+		margin-bottom: 30px;
+		text-transform: uppercase
+	}
+	.line-divide{
+		border-top: 1px solid #EBEBEB;
+		margin: 30px;
 	}
 
 /* slideshow */
@@ -169,6 +207,119 @@ header{
 		font-size: 22px;
 		text-transform: uppercase;
 	}
+/* unidades */
+.tab {
+    float: left;
+    border: 1px solid #F5C7F9;
+    background-color: #ffffff;
+    height: auto;
+}
+	.tab button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 10px 20px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 15px;
+}
+		.tab button:hover {
+	    background-color: #AC76B0;
+	    color: white;
+	}
+		.tab button.active {
+    background-color: #AC76B0;
+    color: white;
+	}
+.tabcontent {
+    float: left;
+    padding: 0px 0px;
+    border: 1px solid #F5C7F9;
+    width: 100%;
+    height: auto;
+ }
+ 	.contact {
+	    border: none;
+	 }
+	 .form-control{
+	 	border: none;
+	 	outline: none;
+	 	border-bottom: 3px solid #dad7dc;
+	 	border-radius: 0;
+	 }
+	 .form-control:focus{
+	 	border-color: #ac76b0;
+	 	box-shadow: 0 0 0 0.2rem rgba(206, 212, 218, 0);
+	 }
+.work{
+	color: #96989A;
+	margin-top:  40px;
+	text-align:  justify;
+}
+	.content-unit{
+		margin-left: 0px;
+	}
+		.color{
+			color: #9C6E9F;
+		}
+		.information{
+		    flex: 1;
+		    align-self: flex-end;
+		    line-height: 2;
+		}
+			.icons{
+				list-style: none;
+			}
+	.content-general{
+		margin-left: 15px;
+	}
+	.content-general p{
+		margin-bottom: 5px !important;
+	}
+
+/* duvidas */
+.accordion {
+    background-color: #eee;
+    color: #000;
+    font-weight:  600;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+.accordion:after {
+    content: '\002B';
+    color: #000;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+.active:after {
+    content: "\2212";
+}
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+	.active, .accordion:hover{
+		background-color: #AC76B0 !important;
+		color: #fff;
+	}
+	button:focus{
+		outline: none;
+	}
+/* contact */
 
 /* footer */
 footer{

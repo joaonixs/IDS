@@ -101,7 +101,7 @@
 				</a>
 			</div>
 			<div class="col-md-20 col-sm-20 col-20 menu-pages four">
-				<a href="https://www.ids.med.br/" title="Logo IDS">
+				<a href="https://www.clickvita.com.br/clinica/IDS" title="Logo IDS">
 					<img src="assets/images/resultados.png" alt="Icon IDS">
 					Resultado de Exames
 				</a>
