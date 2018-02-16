@@ -83,19 +83,19 @@
 	<div class="container">
 		<div class="row menu-header">
 			<div class="col-md-20 col-sm-20 col-20 menu-pages one">
-				<a href="https://www.ids.med.br/" title="Logo IDS">
+				<a href="preagendamento.php" title="Logo IDS">
 					<img src="assets/images/calendario.png" alt="Icon IDS">
 					Pré-Agendamento
 				</a>
 			</div>
 			<div class="col-md-20 col-sm-20 col-20 menu-pages two">
-				<a href="https://www.ids.med.br/" title="Logo IDS">
+				<a href="unidades.php" title="Logo IDS">
 					<img src="assets/images/unidades.png" alt="Icon IDS">
 					Unidades
 				</a>
 			</div>
 			<div class="col-md-20 col-sm-20 col-20 menu-pages three">
-				<a href="https://www.ids.med.br/" title="Logo IDS">
+				<a href="exames.php" title="Logo IDS">
 					<img src="assets/images/exames.png" alt="Icon IDS">
 					Exames
 				</a>
@@ -107,13 +107,13 @@
 				</a>
 			</div>
 			<div class="col-md-20 col-sm-20 col-20 menu-pages five">
-				<a href="https://www.ids.med.br/" title="Logo IDS">
+				<a href="duvidas.php" title="Logo IDS">
 					<img src="assets/images/duvidas.png" alt="Icon IDS">
 					Dúvidas
 				</a>
 			</div>
 			<div class="col-md-20 col-sm-20 col-20 menu-pages six">
-				<a href="https://www.ids.med.br/" title="Logo IDS">
+				<a href="contato.php" title="Logo IDS">
 					<img src="assets/images/mail.png" alt="Icon IDS">
 					Contato
 				</a>
